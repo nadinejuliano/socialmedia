@@ -1,0 +1,43 @@
+.jumbotron{
+    background: linear-gradient(rgba(172, 197, 241, 0.8), rgba(172, 197, 241, 0.5)),
+                url('images/header3.jpg') no-repeat fixed;
+    background-size: cover;
+}
+
+.jumbotron > h1{
+    letter-spacing: 0.4em;
+    font-family: 'Palatino Linotype','serif';
+}
+.content-wrap{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container{
+    background: linear-gradient(rgba(220, 223, 226, 0.8), rgba(220, 223, 226, 0.5)),
+                url('images/connection.png') no-repeat fixed;
+    background-size: cover;
+    margin-bottom: 80px;
+    max-width: 100%;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.thumbnail{
+    background: linear-gradient(rgba(172, 197, 241, 0.5), rgba(172, 197, 241, 0.4));
+    padding: 15px 10px;
+}
+
+.caption{
+    text-align: center;
+}
+
+.btn:hover{
+    transition: all .200ms ease-in-out;
+    transform: scale(1.1);
+}

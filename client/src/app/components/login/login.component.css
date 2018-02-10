@@ -8,12 +8,13 @@ body{
     background: linear-gradient(to bottom, #00589F 50%, #0073CF) !important;
     color: white;
   }
-  
+
+
   div.well{
     height: 250px;
   } 
   
-  .Absolute-Center {
+.Absolute-Center {
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
